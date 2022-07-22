@@ -13,8 +13,8 @@ class EstRoutes {
         this.router.get('/', estController.list);
         this.router.get('/', estController.soloUno);
         this.router.post('/', estController.create);
-        this.router.put('/:di', estController.update);
-        this.router.delete('/:di', estController.delete);
+        this.router.put('/:id', estController.update);
+        this.router.delete('/:id', estController.delete);
     }
 
 }

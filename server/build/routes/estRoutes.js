@@ -14,8 +14,8 @@ class EstRoutes {
         this.router.get('/', estController_1.default.list);
         this.router.get('/', estController_1.default.soloUno);
         this.router.post('/', estController_1.default.create);
-        this.router.put('/:di', estController_1.default.update);
-        this.router.delete('/:di', estController_1.default.delete);
+        this.router.put('/:id', estController_1.default.update);
+        this.router.delete('/:id', estController_1.default.delete);
     }
 }
 const estRoutes = new EstRoutes();
